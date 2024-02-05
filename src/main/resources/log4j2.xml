@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace" name="starter" packages="">
+	<Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout>
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+        </Console>
+   		<RollingFile name="RollingFile"
+			fileName="/usr/local/springcaf/logs/springcaf.starter.log"
+			filePattern="/usr/local/springcaf/logs/$${date:yyyy-MM}/springcaf.starter-%d{MM-dd-yyyy}-%i.log.gz">
+			<PatternLayout>
+				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<SizeBasedTriggeringPolicy size="250 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+        <Logger name="com.springcaf" additivity="false" level="error">
+            <AppenderRef ref="RollingFile" />
+        </Logger>
+        
+		<Root level="error">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

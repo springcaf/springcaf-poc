@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="_fragments/adminlte :: head">
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+
+	<!-- Site wrapper -->
+	<div class="wrapper">
+
+  		<!-- Header -->
+		<div th:replace="_fragments/adminlte :: header"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<!-- Main content -->
+			<section class="content">
+
+				<!-- Default box -->
+				<div class="box">
+					<div class="box-header with-border">
+						search criteria
+					</div>
+					<div class="box-body">Tables</div>
+					<!-- /.box-body -->
+					<div class="box-footer">5 records found</div>
+					<!-- /.box-footer-->
+				</div>
+				<!-- /.box -->
+
+			</section>
+			<!-- /.content -->
+		</div>
+		<!-- /.content-wrapper -->
+
+		<div th:replace="_fragments/adminlte :: footer"></div>
+
+	</div>
+	<!-- ./wrapper -->
+	
+<section th:replace="_fragments/adminlte :: scripts"></section>
+
+</body>
+</html>

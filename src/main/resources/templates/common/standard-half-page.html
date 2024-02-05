@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="_fragments/adminlte :: head">
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+
+	<!-- Site wrapper -->
+	<div class="wrapper">
+
+  		<!-- Header -->
+		<div th:replace="_fragments/adminlte :: header"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<!-- Main content -->
+			<section class="content">
+
+	           <div class="row">
+	                <div class="col-md-6 col-sm-12">
+	                
+						<div th:utext="${pageContents}">Page contents </div>
+	                
+	                </div>
+	            </div>
+			</section>
+			<!-- /.content -->
+		</div>
+		<!-- /.content-wrapper -->
+
+		<div th:replace="_fragments/adminlte :: footer"></div>
+
+	</div>
+	<!-- ./wrapper -->
+	
+<section th:replace="_fragments/adminlte :: scripts"></section>
+	
+</body>
+</html>
