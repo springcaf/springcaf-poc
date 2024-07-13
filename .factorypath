@@ -74,15 +74,4 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/boot/spring-boot-configuration-processor/2.6.3/spring-boot-configuration-processor-2.6.3.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/amazonaws/aws-java-sdk-s3/1.12.158/aws-java-sdk-s3-1.12.158.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/amazonaws/aws-java-sdk-kms/1.12.158/aws-java-sdk-kms-1.12.158.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/amazonaws/aws-java-sdk-core/1.12.158/aws-java-sdk-core-1.12.158.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.13.1/jackson-dataformat-cbor-2.13.1.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/amazonaws/jmespath-java/1.12.158/jmespath-java-1.12.158.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/amazonaws/aws-java-sdk-dynamodb/1.12.158/aws-java-sdk-dynamodb-1.12.158.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/com/amazonaws/aws-java-sdk-ses/1.12.158/aws-java-sdk-ses-1.12.158.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>

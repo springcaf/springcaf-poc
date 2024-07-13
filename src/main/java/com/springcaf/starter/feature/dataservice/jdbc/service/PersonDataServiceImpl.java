@@ -3,6 +3,7 @@ package com.springcaf.starter.feature.dataservice.jdbc.service;
 import java.sql.SQLException;
 import java.util.List;
 import com.springcaf.core.exception.SpringcafException;
+import com.springcaf.core.jdbc.model.SqlParmSet;
 import com.springcaf.core.jdbc.service.AbstractDataService;
 import com.springcaf.starter.common.dataservice.jdbc.service.DefaultCrudDataServiceImpl;
 import com.springcaf.starter.feature.dataservice.jdbc.model.Person;
