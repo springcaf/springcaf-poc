@@ -1,6 +1,6 @@
 package com.springcaf.core.web.util;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 
 import com.springcaf.core.web.model.table.SortAndFilterState;
