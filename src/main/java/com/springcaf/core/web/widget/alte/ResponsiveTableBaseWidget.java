@@ -3,7 +3,7 @@ package com.springcaf.core.web.widget.alte;
 import java.util.List;
 import java.util.TimeZone;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import com.springcaf.core.exception.SpringcafException;
 import com.springcaf.core.util.StringUtils;

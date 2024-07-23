@@ -2,8 +2,8 @@ package com.springcaf.core.web.meta;
 
 import java.util.TimeZone;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import com.springcaf.core.exception.SpringcafException;
 import com.springcaf.core.security.user.AbstractTenantUser;

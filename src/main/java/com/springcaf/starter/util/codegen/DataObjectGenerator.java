@@ -41,7 +41,7 @@ public class DataObjectGenerator {
 	private static Connection createVerticaConnection() throws ClassNotFoundException, SQLException
 	{
 		String driver = "com.mysql.cj.jdbc.Driver";
-		String server = "jdbc:mysql://localhost:3306/starterdb?useSSL=false&serverTimezone=UTC";
+		String server = "jdbc:mysql://localhost:3306/starterdb?useSSL=true&serverTimezone=UTC";
 		String userName = "starteruser";
 		String password = "starterpwd";
 		return JdbcUtils.getConnection(driver, server, userName, password);

@@ -2,7 +2,7 @@ package com.springcaf.core.web.widget.alte;
 
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.springframework.security.web.csrf.CsrfToken;
 
